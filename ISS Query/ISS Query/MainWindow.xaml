@@ -49,7 +49,7 @@
                                         </Style>
                                     </Grid.Style>
 
-                                    <TextBlock Text="{Binding DBName}"
+                                    <TextBlock Text="{Binding DbName}"
                                                Margin="20,12,0,18"
                                                FontSize="20"
                                                Foreground="#FFF"
@@ -380,35 +380,35 @@
 
                             <TextBlock Text="Найдено записей: "
                                        FontFamily="Segoe UI"/>
-                            <TextBlock Text="{Binding ElementName=DataContainer, Path=Item.Count}"
-                                       FontFamily="Segoe UI"
-                                       FontWeight="Bold"/>
+                            <!--<TextBlock Text="{Binding ElementName=DataContainer, Path=Item.Count}"-->
+                            <!--           FontFamily="Segoe UI"-->
+                            <!--           FontWeight="Bold"/>-->
                         </StackPanel>
                         <StackPanel Grid.Column="5"
                                     Orientation="Horizontal"
                                     HorizontalAlignment="Right"
                                     VerticalAlignment="Center">
-                            <!--< <StackPanel.Style>
-                                Style TargetType="{x:Type StackPanel}">
-                                    <Style.Triggers>
-                                        <DataTrigger Binding="{Binding IsExportEnabled}" Value="false">
-                                            <Setter Property="Visibility" Value="Collapsed"/>
-                                        </DataTrigger>
-                                        <MultiTrigger>
-                                            <MultiTrigger.Conditions>
-                                                <Condition Binding="{Binding ElementName=DataContainer, Path=Items.count}" Value="0"/>
-                                                <Condition Binding="{Binding ElementName=NumericTb, Path=Minimum}" Value="0"/>
-                                            </MultiTrigger.Conditions>
-                                            <MultiTrigger.Setters>
-                                                <Setter Property="Visibility" Value="Collapsed"/>
-                                            </MultiTrigger.Setters>
-                                        </MultiTrigger>
-                                        <DataTrigger Binding="{Binding ExecuteQueryFlag}" Value="true">
-                                            <Setter Property="IsEnabled" Value="False"/>
-                                        </DataTrigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </StackPanel.Style>-->
+                            <!--<StackPanel.Style>-->
+                            <!--    <Style TargetType="{x:Type StackPanel}">-->
+                            <!--        <Style.Triggers>-->
+                            <!--        <DataTrigger Binding="{Binding IsExportEnabled}" Value="false">-->
+                            <!--                <Setter Property="Visibility" Value="Collapsed"/>-->
+                            <!--            </DataTrigger>-->
+                            <!--           <MultiTrigger>-->
+                            <!--                <MultiTrigger.Conditions>-->
+                            <!--                    <Condition Binding="{Binding ElementName=DataContainer, Path=Items.count}" Value="0"/>-->
+                            <!--                    <Condition Binding="{Binding ElementName=NumericTb, Path=Minimum}" Value="0"/>-->
+                            <!--                </MultiTrigger.Conditions>-->
+                            <!--               <MultiTrigger.Setters>-->
+                            <!--                    <Setter Property="Visibility" Value="Collapsed"/>-->
+                            <!--                </MultiTrigger.Setters-->
+                            <!--            </MultiTrigger>-->
+                            <!--            <DataTrigger Binding="{Binding ExecuteQueryFlag}" Value="true">-->
+                            <!--                <Setter Property="IsEnabled" Value="False"/>-->
+                            <!--            </DataTrigger>-->
+                            <!--        </Style.Triggers>-->
+                            <!--    </Style>-->
+                            <!--</StackPanel.Style>-->
 
 
                             <TextBlock Text="Экспорт данных:"
@@ -488,27 +488,21 @@
                             <Viewbox>
                                 <Grid Name="GetFirstElementBt"
                                       ToolTip="Первая">
-                                    <Canvas>
-                                        <Page/>
-                                    </Canvas>
                                 </Grid>
                             </Viewbox>
                             <Viewbox>
                                 <Grid Name="GetPrevElementBt"
                                       ToolTip="Предыдущая">
-                                    <Canvas>
-                                        <Page/>
-                                    </Canvas>
 
-                                    <Grid.Style>
-                                        <Style TargetType="{x:Type Grid}">
-                                            <Style.Triggers>
-                                                <DataTrigger Binding="{Binding ElementName=NumericTb, Path=Visibility}" Value="Visible">
-                                                    <Setter Property="IsEnabled" Value="False"/>
-                                                </DataTrigger>
-                                            </Style.Triggers>
-                                        </Style>
-                                    </Grid.Style>
+                                    <!--#region <Grid.Style>-->
+                                    <!--    <Style TargetType="{x:Type Grid}">-->
+                                    <!--        <Style.Triggers>-->
+                                    <!--            <DataTrigger Binding="{Binding ElementName=NumericTb, Path=Visibility}" Value="Visible">-->
+                                    <!--               <Setter Property="IsEnabled" Value="False"/>-->
+                                    <!--            </DataTrigger>-->
+                                    <!--        </Style.Triggers>-->
+                                    <!--    </Style>-->
+                                    <!--</Grid.Style> -->
                                 </Grid>
                             </Viewbox>
 
@@ -524,11 +518,11 @@
                                 
                                 <TextBlock.Style>
                                     <Style TargetType="{x:Type TextBlock}">
-                                        <Style.Triggers>
-                                            <DataTrigger Binding="{Binding ElementName=NumericTb, Path=Visibility}" Value="Visible">
-                                                <Setter Property="Visibility" Value="Collapsed"/>
-                                            </DataTrigger>
-                                        </Style.Triggers>
+                                        <!--<Style.Triggers>-->
+                                        <!--    <DataTrigger Binding="{Binding ElementName=NumericTb, Path=Visibility}" Value="Visible">-->
+                                        <!--        <Setter Property="Visibility" Value="Collapsed"/>-->
+                                        <!--    </DataTrigger>-->
+                                        <!--</Style.Triggers>-->
                                     </Style>
                                 </TextBlock.Style>
                             </TextBlock>
@@ -544,16 +538,13 @@
                             <Viewbox>
                                 <Grid Name="GetNextElementBt"
                                       ToolTip="Следующая">
-                                    <Canvas>
-                                        <Path/>
-                                    </Canvas>
                                     <Grid.Style>
                                         <Style TargetType="{x:Type Grid}">
-                                            <Style.Triggers>
-                                                <DataTrigger Binding="{Binding ElementName=NumericTb, Path=Visibility}" Value="Visible">
-                                                    <Setter Property="IsEnabled" Value="False"/>
-                                                </DataTrigger>
-                                            </Style.Triggers>
+                                            <!--<Style.Triggers>-->
+                                            <!--   <DataTrigger Binding="{Binding ElementName=NumericTb, Path=Visibility}" Value="Visible">-->
+                                            <!--        <Setter Property="IsEnabled" Value="False"/> -->
+                                            <!--    </DataTrigger> -->
+                                            <!--</Style.Triggers> -->
                                         </Style>
                                     </Grid.Style>
                                 </Grid>
@@ -658,7 +649,7 @@
                                 <Setter Property="HeadersVisibility" Value="Column"/>
 
                                 <Style.Triggers>
-                                    <DataTrigger Binding="{Binding QuertPageLoadFlag}" Value="true">
+                                    <DataTrigger Binding="{Binding QueryPageLoadFlag}" Value="true">
                                         <Setter Property="Visibility" Value="Hidden"/>
                                     </DataTrigger>
                                     <DataTrigger Binding="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Items.IsEmpty}" Value="false">
@@ -934,7 +925,7 @@
                                         <Setter Property="Background" Value="Transparent"/>
 
                                         <EventSetter Event="MouseEnter" Handler="MenuItemMouseEnter2"/>
-                                        <EventSetter Event="MouseLeave" Handler="MenuItemNouseLeave2"/>
+                                        <EventSetter Event="MouseLeave" Handler="MenuItemMouseLeave2"/>
 
                                         <EventSetter Event="MouseDown" Handler="ItemMouseDown"/>
                                         <EventSetter Event="MouseUp" Handler="ItemMouseUp"/>
@@ -1020,7 +1011,7 @@
 
             <Grid Grid.Column="2"
                   Background="#EE2B2B2B">
-                <ItemsControl Name="Menu_dop2"
+                <ItemsControl Name="Menu_Dop2"
                               Width="0"
                               HorizontalAlignment="Left"
                               Focusable="False"

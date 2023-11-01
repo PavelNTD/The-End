@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISS Client", "ISS Query\ISS Client.csproj", "{768FFCB7-EB45-41FF-A8DD-CCDF3EE700E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceQuery", "ServiceQuery\ServiceQuery.csproj", "{404646CA-1797-48F2-9E9B-91AFFE209111}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryService", "QueryService\QueryService.csproj", "{9FF5F1F5-E974-4A99-AE70-45B60A8F5F90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{768FFCB7-EB45-41FF-A8DD-CCDF3EE700E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{768FFCB7-EB45-41FF-A8DD-CCDF3EE700E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{768FFCB7-EB45-41FF-A8DD-CCDF3EE700E7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{404646CA-1797-48F2-9E9B-91AFFE209111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{404646CA-1797-48F2-9E9B-91AFFE209111}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{404646CA-1797-48F2-9E9B-91AFFE209111}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{404646CA-1797-48F2-9E9B-91AFFE209111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FF5F1F5-E974-4A99-AE70-45B60A8F5F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FF5F1F5-E974-4A99-AE70-45B60A8F5F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FF5F1F5-E974-4A99-AE70-45B60A8F5F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FF5F1F5-E974-4A99-AE70-45B60A8F5F90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

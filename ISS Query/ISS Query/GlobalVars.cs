@@ -89,8 +89,8 @@ namespace ISS_Client
                                 },
                                 new Sub_Menu
                                 {
-                                    Text = "Seach by weacle",
-                                    QueryID = 9,
+                                    Text = "Seach by vehicle",
+                                    QueryID = 10,
                                     NewID = 1,
                                     Uri = amts_3
                                 }
@@ -169,35 +169,35 @@ namespace ISS_Client
             private int _QueryID = 0;
             public int QueryID
             {
-                get { return QueryID; }
+                get { return _QueryID; }
                 set { _QueryID = value; }
             }
 
             private string _DbName;
             public string DbName
             {
-                get { return DbName; }
+                get { return _DbName; }
                 set { _DbName = value; }
             }
 
             private int _NewID = 0;
             public int NewID
             {
-                get { return NewID; }
+                get { return _NewID; }
                 set { _NewID = value; }
             }
 
             private string _ToolTip;
             public string ToolTip
             {
-                get { return ToolTip; }
+                get { return _ToolTip; }
                 set { _ToolTip = value;}
             }
 
             private Uri _Uri;
             public Uri Uri
             {
-                get { return Uri; }
+                get { return _Uri; }
                 set { _Uri = value;}
             }
 
@@ -211,7 +211,7 @@ namespace ISS_Client
             private bool _MouseOver = false;
             public bool MouseOver
             {
-                get { return MouseOver; }
+                get { return _MouseOver; }
                 set { _MouseOver = value; OnPropertyChanged(nameof(MouseOver));}
             }
 

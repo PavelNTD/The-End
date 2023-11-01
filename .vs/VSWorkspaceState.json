@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ISS Query",
+    "\\ISS Query\\ISS Query",
+    "\\ISS Query\\ISS Query\\Properties"
   ],
-  "SelectedNode": "\\D:\\Work\\Projects\\The end",
+  "SelectedNode": "\\ISS Query\\ISS Query\\QueryPages",
   "PreviewInSolutionExplorer": false
 }

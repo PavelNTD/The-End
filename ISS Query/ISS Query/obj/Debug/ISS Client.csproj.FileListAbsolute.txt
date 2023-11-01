@@ -4,3 +4,24 @@ D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\TestQue
 D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\App.g.cs
 D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\ISS Client_MarkupCompile.cache
 D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\ISS Client_MarkupCompile.lref
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\QueryPages\AMTS_1.g.cs
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\QueryPages\AMTS_2.g.cs
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\QueryPages\AMTS_3.g.cs
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\QueryPages\AMTS_DT.g.cs
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\QueryPages\Reestrs.g.cs
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\bin\Debug\ISS Client.exe.config
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\bin\Debug\ISS Client.exe
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\bin\Debug\ISS Client.pdb
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\MainWindow.baml
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\TestQueryWindow.baml
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\QueryPages\AMTS_1.baml
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\QueryPages\AMTS_2.baml
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\QueryPages\AMTS_3.baml
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\QueryPages\AMTS_DT.baml
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\QueryPages\Reestrs.baml
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\ISS Client.g.resources
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\ISS_Client.Properties.Resources.resources
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\ISS Client.csproj.GenerateResource.cache
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\ISS Client.csproj.CoreCompileInputs.cache
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\ISS Client.exe
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\ISS Query\obj\Debug\ISS Client.pdb

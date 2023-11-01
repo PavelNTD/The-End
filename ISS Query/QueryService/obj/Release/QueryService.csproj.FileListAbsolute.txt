@@ -1,0 +1,7 @@
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\QueryService\bin\QueryService.dll.config
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\QueryService\bin\QueryService.dll
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\QueryService\bin\QueryService.pdb
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\QueryService\obj\Release\QueryService.csproj.AssemblyReference.cache
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\QueryService\obj\Release\QueryService.csproj.CoreCompileInputs.cache
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\QueryService\obj\Release\QueryService.dll
+D:\Work\Projects\dunec homeworks\ISS Query\ISS Query\QueryService\obj\Release\QueryService.pdb

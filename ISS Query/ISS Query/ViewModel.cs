@@ -12,7 +12,7 @@ namespace ISS_Client
 {
     internal class ViewModel: INotifyPropertyChanged
     {
-        public List<Menu> QueryMenu
+        public List<GlobalVars.Menu> QueryMenu
         {
             get
             {
@@ -20,7 +20,7 @@ namespace ISS_Client
             }
         }
 
-        public List<Menu> QueryMenu2
+        public List<GlobalVars.Menu> QueryMenu2
         {
             get
             {
@@ -28,7 +28,7 @@ namespace ISS_Client
             }
         }
 
-        public List<Menu> QueryMenu3
+        public List<GlobalVars.Menu> QueryMenu3
         {
             get
             {
@@ -36,15 +36,15 @@ namespace ISS_Client
             }
         }
 
-        private List<FlowDocument> _DocumentList;
-        public List<FlowDocument> DocumentList 
+        private List<FlowDocument> _DocumentsList;
+        public List<FlowDocument> DocumentsList 
         { 
-            get { return _DocumentList; }
-            set { _DocumentList = value; _CurrDocumentColl = value == null || value.Count == 0 ? 0 : 1; OnPropertyChanged(nameof(DocumentList)); }
+            get { return _DocumentsList; }
+            set { _DocumentsList = value; _CurrDocumentColl = value == null || value.Count == 0 ? 0 : 1; OnPropertyChanged(nameof(DocumentsList)); }
         }
 
         private int _CurrDocumentColl;
-        public int CurDocumentColl
+        public int CurrDocumentColl
         {
             get { return _CurrDocumentColl; }
             set { _CurrDocumentColl = value; OnPropertyChanged(nameof(_CurrDocumentColl)); OnPropertyChanged(nameof(IsHaveNextDocumentFlag)); OnPropertyChanged(nameof(IsHavePrevDocumentFlag)); }
@@ -52,17 +52,17 @@ namespace ISS_Client
 
         public FlowDocument CurrentDocument 
         {
-            get { return CurDocumentColl == 0 ? new FlowDocument() : DocumentList[CurDocumentColl - 1]; }
+            get { return CurrDocumentColl == 0 ? new FlowDocument() : DocumentsList[CurrDocumentColl - 1]; }
         }
 
         public bool IsHaveNextDocumentFlag
         {
-            get { return CurDocumentColl != 0 && CurDocumentColl != DocumentList.Count; }
+            get { return CurrDocumentColl != 0 && CurrDocumentColl != DocumentsList.Count; }
         }
 
         public bool IsHavePrevDocumentFlag
         {
-            get { return CurDocumentColl != 0 && CurDocumentColl != 1; }
+            get { return CurrDocumentColl != 0 && CurrDocumentColl != 1; }
         }
 
 

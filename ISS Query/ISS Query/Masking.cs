@@ -16,7 +16,7 @@ namespace ISS_Client
             DependencyProperty.RegisterAttachedReadOnly("MaskExpression", typeof(Regex), typeof(Masking), new FrameworkPropertyMetadata());
 
         public static readonly DependencyProperty MaskProperty =
-            DependencyProperty.RegisterAttached("Mask", typeof(string), typeof(Masking), new FrameworkPropertyMetadata(onMaskChanged));
+            DependencyProperty.RegisterAttached("Mask", typeof(string), typeof(Masking), new FrameworkPropertyMetadata(OnMaskChanged));
 
         public static readonly DependencyProperty MaskExpressionProperty = _maskExpressionPropertyKey.DependencyProperty;
 
